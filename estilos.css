@@ -1,0 +1,344 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1c93a3; /* Fondo blanco */
+  color: #333;
+}
+
+/* Barra superior */
+.navbar {
+  background: #0056b3; /* Azul */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.navbar .title {
+  margin-left: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Sección semanas */
+.weeks {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.weeks h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.grid button {
+  background: #f5f5f5;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1em;
+}
+
+.grid button:hover {
+  background: #0056b3;
+  color: white;
+  border-color: #004494;
+}
+
+/* Caja de repositorio */
+.repo-box {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.repo-box h3 {
+  margin-top: 0;
+}
+
+.repo-box .btn {
+  display: inline-block;
+  background: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.repo-box .btn:hover {
+  background: #003d80;
+}
+
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff; /* Fondo blanco */
+  color: #333;
+}
+
+/* Barra superior */
+.navbar {
+  background: #0056b3; /* Azul */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  flex-wrap: wrap;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.navbar .title {
+  margin-left: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+/* Sección semanas */
+.weeks {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.weeks h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+/* Grid de semanas */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 15px;
+  list-style: none; /* Quitar viñetas de lista */
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo de enlaces como botones */
+.grid li a {
+  display: block;
+  text-align: center;
+  background: #f5f5f5;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1em;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.grid li a:hover {
+  background: #0056b3;
+  color: white;
+  border-color: #004494;
+}
+
+/* Caja de repositorio */
+.repo-box {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.repo-box h3 {
+  margin-top: 0;
+}
+
+.repo-box .btn {
+  display: inline-block;
+  background: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.repo-box .btn:hover {
+  background: #003d80;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+/* Fuente general */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff; /* Fondo blanco */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: #0056b3; /* Azul */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+header .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: white;
+  color: #0056b3;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+header .btn:hover {
+  background: #004494;
+  color: white;
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.contenido h2 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 5px;
+}
+
+.contenido p {
+  margin-bottom: 20px;
+}
+
+.contenido h3 {
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: #0056b3;
+}
+
+/* Lista de enlaces */
+.contenido ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contenido ul li {
+  margin: 10px 0;
+}
+
+.contenido ul li a {
+  display: inline-block;
+  background: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  transition: all 0.3s;
+}
+
+.contenido ul li a:hover {
+  background: #0056b3;
+  color: white;
+  border-color: #004494;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  font-size: 0.9em;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
