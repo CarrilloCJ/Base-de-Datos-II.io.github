@@ -343,3 +343,22 @@ footer {
   border-top: 1px solid #ccc;
 
 }
+/* Botón arriba a la derecha */
+.btn-top-right {
+  position: fixed;       /* lo fija en la pantalla */
+  top: 15px;             /* distancia desde arriba */
+  right: 20px;           /* distancia desde la derecha */
+  background: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  z-index: 1000;         /* siempre por encima */
+}
+
+.btn-top-right:hover {
+  background: #003d80;
+}
+
