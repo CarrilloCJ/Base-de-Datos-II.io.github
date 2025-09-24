@@ -29,17 +29,17 @@ body {
 }
 
 .navbar .title {
-  margin-left: 20px;
-}
+text-align: center;          /* centra el texto */
+  flex: 1;                     /* ocupa todo el espacio disponible */}
 
 .navbar h1 {
-  margin: 0;
-  font-size: 1.5em;
+  text-align: center;          /* centra el texto */
+  flex: 1;                     /* ocupa todo el espacio disponible */
 }
 
 .navbar p {
-  margin: 0;
-  font-size: 0.9em;
+   margin: 5px 0 0;
+  font-size: 1em;
 }
 
 /* Sección semanas */
@@ -341,4 +341,5 @@ footer {
   font-size: 0.9em;
   margin-top: 40px;
   border-top: 1px solid #ccc;
+
 }
