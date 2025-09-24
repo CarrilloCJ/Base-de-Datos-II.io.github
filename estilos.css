@@ -343,11 +343,13 @@ footer {
   border-top: 1px solid #ccc;
 
 }
-/* Botón arriba a la derecha */
+
+
+/* Botón fijo en la esquina superior derecha */
 .btn-top-right {
-  position: fixed;       /* lo fija en la pantalla */
-  top: 15px;             /* distancia desde arriba */
-  right: 20px;           /* distancia desde la derecha */
+  position: fixed;   /* se queda fijo aunque hagas scroll */
+  top: 15px;         /* separación desde arriba */
+  right: 20px;       /* separación desde la derecha */
   background: #0056b3;
   color: white;
   padding: 10px 20px;
@@ -355,10 +357,12 @@ footer {
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s;
-  z-index: 1000;         /* siempre por encima */
+  z-index: 1000;     /* asegura que esté encima de otros elementos */
 }
 
 .btn-top-right:hover {
   background: #003d80;
 }
+
+
 
